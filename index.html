@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--comentarios
+    hola mundo
+-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mi primera pagina</title>
+        <!--styles-->
+        <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+        <!--javasript-->
+    </head>
+    <body>
+        <header><h1>Titulo de la pagina</h1></header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#galeria">galeria</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="#">contactenos</a></li>
+            </ul>
+        </nav>
+        <section id="principal">
+            <img src="imagenes/img1.jpg" width="100%">
+        </section>
+        <!--galeria-->
+        <section id="galeria">
+            <h2>Mi galeria</h2>
+            <ul>
+                <li>
+                    <img src="imagenes/1.png" title="salida del sol">
+                    <p>pintura famosa</p>
+                </li>
+                <li><img src="imagenes/2.png" width="100%"></li>
+                <li><img src="imagenes/3.png" width="100%"></li>
+                <li><img src="imagenes/4.png" width="100%"></li>
+                <li><img src="imagenes/5.png" width="100%"></li>
+                <li><img src="imagenes/6.png" width="100%"></li>
+                <li><img src="imagenes/7.png" width="100%"></li>
+            </ul>
+        </section>
+        <!--contacto-->
+        <section id="contacto">
+            <form>
+                <ul>
+                    <li>
+                        <label>nombre completo:</label>
+                        <input type="text" id="nombre"/>
+                    </li>
+                    <li>
+                        <label>numero de telefono:</label>
+                        <input type="number" id="numero"/>
+                    </li>
+                    <li>
+                        <label>correo electronico:</label>
+                        <input type="email" id="correo"/>
+                    </lI>
+                    <li>
+                        <button>enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <footer>Realizado por: XXXX</footer>
+    </body>
+</html>
